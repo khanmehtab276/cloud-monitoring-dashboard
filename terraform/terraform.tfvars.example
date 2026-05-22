@@ -1,0 +1,19 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+# AWS region
+aws_region = "us-east-1"
+
+# EC2 instance type (t2.micro is free tier eligible)
+instance_type = "t2.micro"
+
+# Name of your EC2 key pair (must already exist in AWS)
+key_name = "your-key-pair-name"
+
+# Your public IP for SSH access (or 0.0.0.0/0 for anywhere)
+allowed_ssh_cidr = "0.0.0.0/0"
+
+# GitHub repository
+github_repo = "https://github.com/khanmehtab276/cloud-monitoring-dashboard.git"
+
+# Docker image
+docker_image = "khanmehtab276/cloud-monitoring-dashboard:latest"
