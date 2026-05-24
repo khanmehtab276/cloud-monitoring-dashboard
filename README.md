@@ -111,7 +111,7 @@ Access at: `http://localhost:5000`
    ```
    Update:
    - `key_name = "your-key-pair-name"` (the one you created above)
-   - `aws_region = "us-east-1"` (your region)
+   - `aws_region = "ap-south-1"` (your region)
    - `allowed_ssh_cidr = "your-ip/32"` (optional, for SSH access)
 
 ### Step 3: Deploy
@@ -158,7 +158,7 @@ Response:
 ```json
 {
   "status": "healthy",
-  "timestamp": "2024-05-22T12:34:56"
+  "timestamp": "2026-05-24T14:34:56"
 }
 ```
 
@@ -169,7 +169,7 @@ GET /api/metrics
 Response:
 ```json
 {
-  "timestamp": "2024-05-22T12:34:56",
+  "timestamp": "2024-05-22T14:34:56",
   "cpu": {
     "percent": 25.5,
     "count": 4
